@@ -1,0 +1,16 @@
+{
+  "nombre": "Area de Circulo",
+  "descripcion": "Area = π * radio^2",
+  "formula": "3.14159 * radio ** 2",
+  "variables": {
+    "radio": {
+      "distribucion": "uniform",
+      "parametros": {
+        "min": 1,
+        "max": 10
+      },
+      "unidad": "metros"
+    }
+  },
+  "resultado_unidad": "metros cuadrados"
+}

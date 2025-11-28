@@ -1,0 +1,32 @@
+{
+  "nombre": "Beneficio de Producto",
+  "descripcion": "Beneficio = (Precio - Costo) * Unidades_Vendidas",
+  "formula": "(precio - costo) * unidades",
+  "variables": {
+    "precio": {
+      "distribucion": "normal",
+      "parametros": {
+        "mean": 100,
+        "std": 15
+      },
+      "unidad": "USD"
+    },
+    "costo": {
+      "distribucion": "normal",
+      "parametros": {
+        "mean": 60,
+        "std": 8
+      },
+      "unidad": "USD"
+    },
+    "unidades": {
+      "distribucion": "uniform",
+      "parametros": {
+        "min": 100,
+        "max": 1000
+      },
+      "unidad": "unidades"
+    }
+  },
+  "resultado_unidad": "USD beneficio"
+}

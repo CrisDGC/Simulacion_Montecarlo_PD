@@ -1,0 +1,24 @@
+{
+  "nombre": "Calculo de Tiempo de Viaje",
+  "descripcion": "Tiempo = Distancia / Velocidad",
+  "formula": "distancia / velocidad",
+  "variables": {
+    "distancia": {
+      "distribucion": "uniform",
+      "parametros": {
+        "min": 100,
+        "max": 500
+      },
+      "unidad": "km"
+    },
+    "velocidad": {
+      "distribucion": "normal",
+      "parametros": {
+        "mean": 80,
+        "std": 10
+      },
+      "unidad": "km/h"
+    }
+  },
+  "resultado_unidad": "horas"
+}
