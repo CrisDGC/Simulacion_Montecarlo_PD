@@ -42,7 +42,7 @@ python worker.py 2
 python worker.py 3
 
 # 4. Iniciar dashboard
-python sdashboard_gui_simple.py
+python dashboard_gui.py
 ```
 
 ## 👥 Autores
