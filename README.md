@@ -17,9 +17,8 @@ Sistema distribuido para simulaciones Montecarlo utilizando RabbitMQ como middle
 - Dependencias: `pika`, `numpy`, `tkinter`
 
 ## Arquitectura
-```
 <img width="1973" height="1361" alt="Diagrama_Montf" src="https://github.com/user-attachments/assets/648fb943-32d3-4c53-a885-fc3350a5e5b7" />
-
+```
 
 ## Instalación
 ```bash
